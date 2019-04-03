@@ -1,4 +1,6 @@
-
+html{
+    max-width: 100vh;
+}
 
 
 body{
@@ -31,23 +33,23 @@ body{
 
 .header-background-wrapper {
     width: 100vw;
-    position: absolute;
-    z-index: -1;
-    height: 70vh;
 }
 
 header.mastheadd {
     height: 70vh;
-    color: white;
+    color: #fff;
 }
 
 .container2 {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding: 20vh 20px 0;
+    padding: 20px;
+    width: 100vw;
 }
 
 .container-main {
-    padding: 20px 100px;
+    margin-right: 10px;
     font-size: 18px;
 }
 
@@ -104,6 +106,8 @@ h2.text-center.text-uppercase.text-secondary.mb-0 {
 
 .container3 {
     text-align: center;
+    width: 100vw;
+    line-height: 1.4em;
 }
 .project-description-section{
     padding: 20px;
@@ -135,7 +139,7 @@ h2.text-center.text-uppercase.text-secondary.mb-0 {
 
 .bottom-footer{
     background-color: var(--main-bg-color);
-    height: 5vh;
+    height: 0vh;
 }
 
 h4.text-uppercase.mb-4 {
@@ -150,10 +154,216 @@ h4.text-uppercase.mb-4 {
     padding: 60px;
 }
 
-@media(max-width:469px){
+@media(max-width:646px){
     .col-md-6.col-lg-6{
         width: 100%;
         display: flex;
         flex-direction: column;
       }
 }
+
+.navbar {
+    display: flex;
+    background: #472c56;
+    padding: 0px 10px;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,0.1), 0 3px 1px 0 rgba(20,23,28,0.1);
+    color: #fff;
+    height: 10vh;
+    align-items: center;
+    min-width: 100vw;
+}
+.nav-items{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    color: #fff;
+}
+
+a{
+    color: #fff;
+}
+
+.nav-items > div{
+    padding: 5px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+.links-container > a{
+    color: #0546e4;
+}
+
+div#container5 {
+    min-width: 100vw;
+}
+
+.footer-main {
+    width: 100vw;
+    padding: 2px;
+}
+
+
+
+@media(max-width:646px){
+    .container3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 0;
+        transform: translate(-50%, -50%);
+        padding: 1.2em;
+        font-size: .5em;
+      }
+}
+
+.container3 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+    50% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+      }
+  }
+
+  .container2 {
+    animation-duration: 3s;
+    animation-name: slide;
+  }
+  
+  @keyframes slide {
+    from {
+      margin-left: -50%;
+      width: 50%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+
+  }
+
+
+
+  .navbar > div:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+  .navbar > div:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  } 
+  
+  .project-description-section> div:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+
+
+  .img-fluidd:hover{
+    transform: scale(1.5);
+    transition: all ease 800ms;
+  }
+
+
+  .row > div:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
