@@ -394,6 +394,15 @@ div#container5 {
   }
   
 
-  .main-header-wrapper{
-    /* margin-left: 5vw; */
-  }
+  @media(max-width:646px){
+    .col-md-6.col-lg-6 > div{
+      width: 100%
+      }
+}
+
+
+@media(max-width:646px){
+  .project-description-section {
+    text-align: center;
+    }
+}
