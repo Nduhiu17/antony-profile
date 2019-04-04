@@ -8,15 +8,10 @@ body{
 }
 
 
-
 :root {
   --main-bg-color: #4C2F5C;
   --secondary-bg-color: #1F224D;
 }
-
-
-
-
 
 .header-background {
     width: 0;
@@ -153,7 +148,7 @@ h4.text-uppercase.mb-4 {
     padding: 60px;
 }
 
-@media(max-width:646px){
+@media(max-width:768px){
     .col-md-6.col-lg-6{
         width: 100%;
         display: flex;
@@ -171,7 +166,7 @@ h4.text-uppercase.mb-4 {
     align-items: center;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 93.5vw;
     transition: top 0.3s;
 }
 .nav-items{
@@ -188,6 +183,35 @@ a{
 .nav-items > div{
     padding: 5px;
 }
+
+@media only screen and (max-width: 768px) {
+  .nav-items,
+  .navbar,
+  .nav-logo {
+    flex-direction: column;
+    height: auto;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-logo {
+    flex-direction: column;
+    height: auto;
+    margin-left: -7vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container2 {
+    margin-top: 8vh;
+    padding: 63px;
+  }
+}
+
+
+
+
 
 a:link {
     text-decoration: none;
@@ -208,15 +232,15 @@ div#container5 {
 
 
 
-@media(max-width:646px){
+@media(max-width:768px){
     .container3{
         position: absolute;
-        top: 50%;
+        top: 58%;
         left: 50%;
         padding: 0;
         transform: translate(-50%, -50%);
         padding: 1.2em;
-        font-size: .5em;
+        font-size: 15px;
       }
 }
 
@@ -390,14 +414,14 @@ div#container5 {
   }
   
 
-  @media(max-width:646px){
+  @media(max-width:768px){
     .col-md-6.col-lg-6 > div{
       width: 100%
       }
 }
 
 
-@media(max-width:646px){
+@media(max-width:768px){
   .project-description-section {
     text-align: center;
     }
