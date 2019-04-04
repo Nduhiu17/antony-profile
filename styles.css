@@ -335,13 +335,6 @@ div#container5 {
   }
 
 
-
-  .img-fluidd:hover{
-    transform: scale(1.5);
-    transition: all ease 800ms;
-  }
-
-
   .row > div:hover {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
