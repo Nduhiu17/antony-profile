@@ -44,8 +44,7 @@ header.mastheadd {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 20px;
-    /* width: 96vw; */
+    padding: 45px;
 }
 
 .container-main {
@@ -170,6 +169,10 @@ h4.text-uppercase.mb-4 {
     color: #fff;
     height: 10vh;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
 }
 .nav-items{
     display: flex;
@@ -354,7 +357,7 @@ div#container5 {
     30%, 50%, 70% {
       transform: translate3d(-4px, 0, 0);
     }
-  
+   
     40%, 60% {
       transform: translate3d(4px, 0, 0);
     }
