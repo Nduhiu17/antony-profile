@@ -1,10 +1,12 @@
 html{
     max-width: 100vh;
+    margin-right: 1vw;
 }
 
 
 body{
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -16,9 +18,9 @@ body{
 .header-background {
     width: 0;
     height: 96px;
-    border-left: 50vw solid transparent;
+    border-left: 49vw solid transparent;
     border-right: 48vw solid transparent;
-    border-top: 20vh solid var(--main-bg-color);
+    border-top: 15vh solid var(--main-bg-color);
 }
 
 .header-background-top {
@@ -27,7 +29,7 @@ body{
 }
 
 .header-background-wrapper {
-    width: 98vw;
+    width: 97vw;
 }
 
 header.mastheadd {
@@ -164,9 +166,9 @@ h4.text-uppercase.mb-4 {
     color: #fff;
     height: 10vh;
     align-items: center;
-    position: fixed;
+    position: absolute;
     top: 0;
-    width: 93.5vw;
+    width: 95vw;
     transition: top 0.3s;
 }
 .nav-items{
