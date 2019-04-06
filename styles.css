@@ -1,7 +1,3 @@
-/* html{
-    max-width: 100vh;
-    margin-right: 1vw;
-} */
 
 
 body{
@@ -29,7 +25,7 @@ body{
 }
 
 .header-background-wrapper {
-    width: 97vw;
+    width: 96.9vw;
 }
 
 header.mastheadd {
@@ -53,14 +49,14 @@ header.mastheadd {
     width: 0;
     height: 0;
     border-bottom: 128px solid var(--secondary-bg-color);
-    border-left: 100vw solid transparent;
+    border-left: 96.8vw solid transparent;
 }
 
 .bottom-triangle {
     width: 0;
     height: 0;
     border-top: 128px solid var(--secondary-bg-color);
-    border-left: 100vw solid transparent;
+    border-left: 96.8vw solid transparent;
     background: var(--main-bg-color);
 }
 
@@ -84,9 +80,12 @@ header.mastheadd {
 }
 
 img.img-fluidd {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6vh;
 }
 
 .links-container {
@@ -106,12 +105,12 @@ h2.text-center.text-uppercase.text-secondary.mb-0 {
     line-height: 1.4em;
 }
 .project-description-section{
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
 }
 
 .main-bottom-wrapper {
-    width: 100vw;
+    width:  96.8vw;
     position: absolute;
     z-index: -1;
 }
@@ -122,7 +121,6 @@ h2.text-center.text-uppercase.text-secondary.mb-0 {
 }
 
 .nduhiu-shiny {
-    color: green;
     font-weight: bold;
 }
 
@@ -147,7 +145,8 @@ h4.text-uppercase.mb-4 {
 }
 
 .rowww {
-    padding: 60px;
+  padding: 0px 84px;
+  margin-top: 20vh;
 }
 
 @media(max-width:768px){
@@ -169,8 +168,9 @@ h4.text-uppercase.mb-4 {
     align-items: center;
     position: absolute;
     top: 0;
-    width: 97vw;
+    width: 96.8vw;
     transition: top 0.3s;
+    margin-top: 1vh;
 }
 .nav-items{
     display: flex;
@@ -229,9 +229,6 @@ a:link {
     color: #0546e4;
 }
 
-div#container5 {
-    min-width: 100vw;
-}
 
 .footer-main {
     width: 100vw;
@@ -434,3 +431,18 @@ div#container5 {
     text-align: center;
     }
 }
+
+
+p.p-des {
+  padding: 20px;
+  align-content: center;
+  width: 72vw;
+  display: table-cell;
+}
+
+p.p-des:hover{
+  background: var(--main-bg-color);
+  transition: all 0.4s ease 0s;
+  color: #fff;
+}
+
