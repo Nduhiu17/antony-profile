@@ -15,7 +15,7 @@ body{
     width: 0;
     height: 96px;
     border-left: 49vw solid transparent;
-    border-right: 48vw solid transparent;
+    border-right: 49vw solid transparent;
     border-top: 15vh solid var(--main-bg-color);
 }
 
@@ -103,6 +103,7 @@ h2.text-center.text-uppercase.text-secondary.mb-0 {
     text-align: center;
     width: 97vw;
     line-height: 1.4em;
+    margin-top: -83px;
 }
 .project-description-section{
     /* padding: 20px; */
@@ -246,6 +247,7 @@ a:link {
         transform: translate(-50%, -50%);
         padding: 1.2em;
         font-size: 15px;
+        margin-top: 0;
       }
 }
 
