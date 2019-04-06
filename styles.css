@@ -37,7 +37,7 @@ header.mastheadd {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 45px;
+    padding-top: 15vh;
 }
 
 .container-main {
@@ -446,3 +446,6 @@ p.p-des:hover{
   color: #fff;
 }
 
+h2#stack {
+  margin-top: 0vh;
+}
