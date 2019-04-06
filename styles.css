@@ -25,7 +25,7 @@ body{
 }
 
 .header-background-wrapper {
-  width: 97.5vw;
+  width: 98.5vw;
 }
 
 header.mastheadd {
@@ -49,14 +49,14 @@ header.mastheadd {
     width: 0;
     height: 0;
     border-bottom: 128px solid var(--secondary-bg-color);
-    border-left: 97.5vw solid transparent;
+    border-left: 98.5vw solid transparent;
 }
 
 .bottom-triangle {
     width: 0;
     height: 0;
     border-top: 128px solid var(--secondary-bg-color);
-    border-left: 97.5vw solid transparent;
+    border-left: 98.5vw solid transparent;
     background: var(--main-bg-color);
 }
 
@@ -168,7 +168,7 @@ h4.text-uppercase.mb-4 {
     align-items: center;
     position: absolute;
     top: 0;
-    width: 97.5vw;
+    width: 98.5vw;
     transition: top 0.3s;
     margin-top: 1vh;
 }
