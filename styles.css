@@ -72,11 +72,24 @@ header.mastheadd {
 
  .col-md-6.col-lg-6 {
   display: flex;
+}
+
+#cards{
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
+}
+
+#cards-skills{
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  padding: 5px 10px;
+  margin: 15px;
 }
 
 
@@ -108,10 +121,9 @@ h2.text-center.text-uppercase.text-secondary.mb-0 {
     text-align: center;
     width: 97vw;
     line-height: 1.4em;
-    /* margin-top: -83px; */
+    font-size: 28px;
 }
 .project-description-section{
-    /* padding: 20px; */
     text-align: center;
 }
 
@@ -278,26 +290,6 @@ a:link {
       }
   }
 
-  .container2 {
-    animation-duration: 3s;
-    animation-name: slide;
-  }
-  
-  @keyframes slide {
-    from {
-      margin-left: 50%;
-      width: 50%; 
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-
-  }
-
-
-
   .navbar > div:hover {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
@@ -349,7 +341,6 @@ a:link {
   } 
   
   .project-description-section> div:hover {
-    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
     perspective: 1000px;
@@ -447,6 +438,8 @@ p.p-des {
   display: table-cell;
 }
 
+
+
 p.p-des:hover{
   background: var(--main-bg-color);
   transition: all 0.4s ease 0s;
@@ -476,7 +469,9 @@ img.img-fluiddd {
 
 .photo-wrapper {
   display: flex;
-  padding: 50px;
+  justify-content: center;
+  /* padding: 50px; */
+  margin-top: 10vh;
 }
 
 @media(max-width:768px){
