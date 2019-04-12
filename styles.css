@@ -451,3 +451,9 @@ p.p-des:hover{
 h2#stack {
   margin-top: 0vh;
 }
+
+hr { 
+  border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
