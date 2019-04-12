@@ -37,8 +37,6 @@ header.mastheadd {
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* margin-left: auto;
-    margin-right: auto; */
 }
 
 .container-main {
@@ -221,6 +219,7 @@ a{
 @media only screen and (max-width: 768px) {
   .container2 {
     margin-top: 11vh;
+    font-size: smaller;
   }
 }
 
