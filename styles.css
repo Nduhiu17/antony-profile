@@ -71,9 +71,6 @@ header.mastheadd {
 
  /*projects*/
 
-.col-md-6.col-lg-6 {
-    display: flex;
-}
 
 .col-md-6.col-lg-6 > div {
     width: 50vw;
